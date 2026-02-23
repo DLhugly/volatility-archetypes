@@ -53,7 +53,7 @@ td{padding:9px 14px;border-bottom:1px solid rgba(30,42,58,0.5)}tr:last-child td{
 
 <div class="hero">
 <div class="hero-over">Physics-Derived Market Intelligence</div>
-<h1>Two systems. One from fluid dynamics. One from thermodynamics. Both predict volatility.</h1>
+<h1>Two systems. Both built from physics. Both predict volatility.</h1>
 <div class="hero-by">James Lawrence &bull; CTO @ Strykr AI &bull; Forward Deployed Engineer</div>
 <div class="hero-sub">System 1 classifies volatility regimes on daily data — walk-forward validated across 20 years and 53 assets. System 2 measures structural fragility in real-time order books. Together they form a complete macro risk framework.</div>
 <div class="stats">
@@ -74,7 +74,7 @@ td{padding:9px 14px;border-bottom:1px solid rgba(30,42,58,0.5)}tr:last-child td{
 <div class="two">
 <div class="cbox">
 <div class="ct">System 1 — Regime Classifier (Daily)</div>
-<div class="cd">13 proprietary features from thermodynamics and transport theory. Classifies any asset into one of 6 empirically discovered volatility regimes. Walk-forward validated: 72.1% accuracy, 38.6pp spread, 29,912 out-of-sample signals across 20 years.</div>
+<div class="cd">13 proprietary physics-derived features. Classifies any asset into one of 6 empirically discovered volatility regimes. Walk-forward validated: 72.1% accuracy, 38.6pp spread, 29,912 out-of-sample signals across 20 years.</div>
 </div>
 <div class="cbox">
 <div class="ct">System 2 — Structural Fragility (Real-Time)</div>
@@ -102,7 +102,7 @@ td{padding:9px 14px;border-bottom:1px solid rgba(30,42,58,0.5)}tr:last-child td{
 </div>
 
 <div class="callout">
-<div class="big">The #1 feature: Phase Transition Detector (59.8% of classifier power)</div>
+<div class="big">The #1 feature: Primary Structural Signal (59.8% of classifier power)</div>
 <p>A proprietary measurement adapted from physics that studies how systems behave near critical thresholds. It detects structural instability before it becomes visible in price or implied volatility. Specification available under NDA.</p>
 </div>
 </div>
@@ -213,7 +213,7 @@ td{padding:9px 14px;border-bottom:1px solid rgba(30,42,58,0.5)}tr:last-child td{
 <div class="section">
 <div class="stitle">What Drives the Signal</div>
 <h2>Feature importance — what drives the classifier</h2>
-<div class="lead">13 features, 6 branches of physical science. The top 3 account for 78.0% of total predictive power (averaged across 7 walk-forward folds). Feature names are obfuscated; specifications available under NDA.</div>
+<div class="lead">13 proprietary physics-derived features. The top 3 account for 78.0% of total predictive power (averaged across 7 walk-forward folds). Feature names are obfuscated; specifications available under NDA.</div>
 <div class="two">
 <div class="chart-box"><div id="c3"></div></div>
 <div class="chart-box">
@@ -262,7 +262,7 @@ td{padding:9px 14px;border-bottom:1px solid rgba(30,42,58,0.5)}tr:last-child td{
 <h2>Built to run, not just to publish</h2>
 <div class="tbl"><table>
 <tr><td colspan="2" style="color:var(--cyan);font-weight:600;font-size:0.75rem;letter-spacing:1px;padding-top:16px">SYSTEM 1 — REGIME CLASSIFIER</td></tr>
-<tr><td>Proprietary features</td><td class="num">13 (from 6 branches of physical science)</td></tr>
+<tr><td>Proprietary features</td><td class="num">13 (physics-derived, proprietary)</td></tr>
 <tr><td>Discovery method</td><td class="num">Gaussian Mixture Model on 381,264 bars</td></tr>
 <tr><td>Classifier</td><td class="num">Gradient-boosted ensemble + isotonic calibration</td></tr>
 <tr><td>Regimes</td><td class="num">6 (discovered empirically, not predefined)</td></tr>
@@ -299,7 +299,7 @@ td{padding:9px 14px;border-bottom:1px solid rgba(30,42,58,0.5)}tr:last-child td{
 </div>
 <div class="faq-item" onclick="this.classList.toggle('active')">
 <div class="faq-q">Is this a black box? <span>+</span></div>
-<div class="faq-a">No. Every feature has a specific physical interpretation grounded in published science. Each measures a distinct structural property of price dynamics — equilibrium deviation, energy barriers, transport rates, disorder production. We know exactly WHY the model classifies each regime, unlike deep learning approaches. Full feature specifications available under NDA.</div>
+<div class="faq-a">No. Every feature has a specific physical interpretation and measures a distinct structural property of market dynamics. We know exactly why the model classifies each regime, unlike deep learning approaches. Full feature specifications available under NDA.</div>
 </div>
 <div class="faq-item" onclick="this.classList.toggle('active')">
 <div class="faq-q">Can a fund replicate this from the website? <span>+</span></div>
@@ -307,7 +307,7 @@ td{padding:9px 14px;border-bottom:1px solid rgba(30,42,58,0.5)}tr:last-child td{
 </div>
 <div class="faq-item" onclick="this.classList.toggle('active')">
 <div class="faq-q">Why physics instead of standard quant factors? <span>+</span></div>
-<div class="faq-a">Standard factors (momentum, mean-reversion, carry) describe what happened. Physics features describe the structural state — how close a system is to a phase transition, how energy is distributed, whether transport is normal or anomalous. These are orthogonal to traditional signals and capture dynamics that price-based indicators miss entirely.</div>
+<div class="faq-a">Standard factors (momentum, mean-reversion, carry) describe what happened. Physics features describe the structural state of market dynamics — properties orthogonal to traditional signals that price-based indicators miss entirely.</div>
 </div>
 <div class="faq-item" onclick="this.classList.toggle('active')">
 <div class="faq-q">Which asset classes work best? <span>+</span></div>
@@ -327,7 +327,7 @@ td{padding:9px 14px;border-bottom:1px solid rgba(30,42,58,0.5)}tr:last-child td{
 <div class="csub">Two ways to work together.</div>
 <div class="two">
 <div class="cbox"><div class="ct">License the Signal</div><div class="cd">Daily regime classifications for your asset universe. Integrate as an overlay on existing vol strategies. Covers equities, FX, commodities, bonds, and crypto.</div></div>
-<div class="cbox"><div class="ct">Hire Me</div><div class="cd">Quant research or applied engineering role. Chemical engineering background, production ML experience, and a working prototype with 36 years of validated results.</div></div>
+<div class="cbox"><div class="ct">Hire Me</div><div class="cd">Quant research or applied engineering role. Physical sciences background, production ML experience, and a working prototype with 36 years of validated results.</div></div>
 </div>
 <div style="font-size:0.9rem;margin-bottom:8px"><a href="https://www.linkedin.com/in/jameslhebert/">LinkedIn</a> &nbsp;&bull;&nbsp; <a href="https://github.com/DLhugly">GitHub</a></div>
 <div style="color:var(--muted);font-size:0.8rem;font-style:italic;margin-top:20px">Full methodology, feature specifications, and live demo available under NDA.</div>
